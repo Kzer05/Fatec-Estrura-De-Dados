@@ -17,7 +17,7 @@ Bem-vindo ao Diretório das Aulas! Aqui iremos depositar todas as aulas para que
 
 🗂️ **Acesse cada pasta para visualizar os arquivos de cada módulo:**  
 
-📌 [📁 Aula 1](#) | [📁 Aula 2](#) | [📁 Aula 3](#) | [📁 Aula 4](#)  
+📌 [📁 Aula 1](#https://github.com/Kzer05/Fatec-Estrura-De-Dados/tree/main/Aula01) | [📁 Aula 2](#) | [📁 Aula 3](#) | [📁 Aula 4](#)  
 📌 [📁 Aula 5](#) | [📁 Aula 6](#) | [📁 Aula 7](#) | [📁 Aula 8](#)  
 
 💡 **Em caso de dúvida, entre em contato com o instrutor.**  
