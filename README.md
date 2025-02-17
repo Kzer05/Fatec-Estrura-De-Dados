@@ -17,8 +17,8 @@ Bem-vindo ao Diretório das Aulas! Aqui iremos depositar todas as aulas para que
 
 🗂️ **Acesse cada pasta para visualizar os arquivos de cada módulo:**  
 
-📌 [📁 Pasta 1](#) | [📁 Pasta 2](#) | [📁 Pasta 3](#) | [📁 Pasta 4](#)  
-📌 [📁 Pasta 5](#) | [📁 Pasta 6](#) | [📁 Pasta 7](#) | [📁 Pasta 8](#)  
+📌 [📁 Aula 1](#) | [📁 Aula 2](#) | [📁 Aula 3](#) | [📁 Aula 4](#)  
+📌 [📁 Aula 5](#) | [📁 Aula 6](#) | [📁 Aula 7](#) | [📁 Aula 8](#)  
 
 💡 **Em caso de dúvida, entre em contato com o instrutor.**  
 
