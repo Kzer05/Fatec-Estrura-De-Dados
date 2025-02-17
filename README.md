@@ -1,39 +1,41 @@
 # Fatec-Estrura-De-Dados
+# 🏫 Fatec - Estrutura de Dados  
 
-# Seja Bem-vindo ao Diretório das Aulas!
+## 🎓 Seja Bem-vindo ao Diretório das Aulas!  
 
-Bem-vindo ao **Diretório das Aulas**! Aqui iremos depositar todas as aulas para que você possa acessar facilmente o conteúdo e acompanhar o aprendizado.
+Bem-vindo ao Diretório das Aulas! Aqui iremos depositar todas as aulas para que você possa acessar facilmente o conteúdo e acompanhar o aprendizado.  
 
-## Instruções
+## 📖 Instruções  
 
-Todas as aulas serão organizadas por tópicos e estarão prontas para consulta a qualquer momento. Fique à vontade para explorar e aprender no seu próprio ritmo.
-
-<div style="font-size: 24px; text-align: center; animation: pulse 2s infinite;">
-    <p>🎓 Bem-vindo! 📚</p>
-</div>
-
-<style>
-    @keyframes pulse {
-        0% {
-            transform: scale(1);
-            opacity: 1;
-        }
-        50% {
-            transform: scale(1.1);
-            opacity: 0.8;
-        }
-        100% {
-            transform: scale(1);
-            opacity: 1;
-        }
-    }
-</style>
+✅ Todas as aulas serão organizadas por tópicos.  
+✅ O material estará disponível para consulta a qualquer momento.  
+✅ Explore e aprenda no seu próprio ritmo!  
 
 ---
 
-### Como navegar pelas aulas:
+## 📂 Como navegar pelas aulas:  
 
-- Acesse cada pasta para visualizar os arquivos de cada módulo.
-- Em caso de dúvida, entre em contato com o instrutor.
+🗂️ **Acesse cada pasta para visualizar os arquivos de cada módulo:**  
 
-Esperamos que aproveite os estudos! 🎉
+📌 [📁 Pasta 1](#) | [📁 Pasta 2](#) | [📁 Pasta 3](#) | [📁 Pasta 4](#)  
+📌 [📁 Pasta 5](#) | [📁 Pasta 6](#) | [📁 Pasta 7](#) | [📁 Pasta 8](#)  
+
+💡 **Em caso de dúvida, entre em contato com o instrutor.**  
+
+🚀 **Esperamos que aproveite os estudos!** 🎉  
+
+---
+
+## 🌟 Animação  
+
+<div style="text-align: center;">
+  <img src="https://media.giphy.com/media/j5I5xWl7h1ABpaEUXL/giphy.gif" width="200px" style="animation: pulse 1.5s infinite;">
+</div>  
+
+<style>
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 1; }
+}
+</style>
