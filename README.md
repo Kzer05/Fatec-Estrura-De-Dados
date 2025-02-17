@@ -26,6 +26,17 @@ Bem-vindo ao Diretório das Aulas! Aqui iremos depositar todas as aulas para que
 
 ---
 
+## Usuarios:
+
+### João:
+
+### Kevin:
+
+### Raul:
+
+---
+
+
 ## 🌟 Animação  
 
 <div style="text-align: center;">
