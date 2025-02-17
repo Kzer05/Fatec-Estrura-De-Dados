@@ -31,11 +31,3 @@ Bem-vindo ao Diretório das Aulas! Aqui iremos depositar todas as aulas para que
 <div style="text-align: center;">
   <img src="https://media.giphy.com/media/j5I5xWl7h1ABpaEUXL/giphy.gif" width="200px" style="animation: pulse 1.5s infinite;">
 </div>  
-
-<style>
-@keyframes pulse {
-  0% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.1); opacity: 0.8; }
-  100% { transform: scale(1); opacity: 1; }
-}
-</style>
