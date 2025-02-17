@@ -29,7 +29,8 @@ Bem-vindo ao Diretório das Aulas! Aqui iremos depositar todas as aulas para que
 ## Usuarios:
 
 ### João:
-
+  - git config --global user.name "joaomagi"
+  - git config --global user.email "joaofrancisco.leaomagi@outlook.com"
 ### Kevin:
 
 ### Raul:
