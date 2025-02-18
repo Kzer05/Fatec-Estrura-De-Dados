@@ -61,11 +61,10 @@ Esse comando executa o arquivo gerado pela compilação.
 |-------|-----------|
 | João  | `git config --global user.name "joaomagi"`  |
 |       | `git config --global user.email "joaofrancisco.leaomagi@outlook.com"`  |
-|-------|-----------|
 | Kevin | `git config --global user.name "Kzer05"`  |
 |       | `git config --global user.email "kevingabriel6000@gmail.com"`  |
-|-------|-----------|
-| Raul  | _A definir_ |
+| Raul  | `git config --global user.name "RickD248"`  |
+|       | `git config --global user.email "raul11.serrano@gmail.com"`  |
 
 ---
 
