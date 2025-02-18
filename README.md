@@ -35,6 +35,22 @@ Bem-vindo ao Diretório das Aulas! Aqui iremos depositar todas as aulas para que
 
 ---
 
+## 📚 Aprendizado
+
+### 🔹 Comandos para executar GCC:
+```bash
+gcc .\arquivo -o algumnome
+.\algumnome.exe
+```
+
+### 🔹 Tipos de Dados / Variáveis:
+- `int`
+- `float`
+- `double`
+- `char`
+
+---
+
 ## 👥 Usuários
 
 | Nome  | Git Config |
