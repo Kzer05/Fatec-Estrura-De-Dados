@@ -55,6 +55,50 @@ Esse comando executa o arquivo gerado pela compilação.
 
 ---
 
+# Operadores em C
+
+## Operadores Aritméticos:
+- `+` → Adição
+- `-` → Subtração
+- `*` → Multiplicação
+- `/` → Divisão
+- `%` → Módulo (resto da divisão)
+
+---
+
+## Operadores Relacionais:
+- `==` → Igualdade
+- `!=` → Diferente
+- `>` → Maior que
+- `<` → Menor que
+- `>=` → Maior ou igual
+- `<=` → Menor ou igual
+
+---
+
+## Operadores Lógicos:
+- `&&` → AND (E lógico)
+- `||` → OR (OU lógico)
+- `!` → NOT (Negação lógica)
+
+---
+
+## Operadores de Atribuição:
+- `=` → Atribuição
+- `+=` → Atribuição com adição
+- `-=` → Atribuição com subtração
+- `*=` → Atribuição com multiplicação
+- `/=` → Atribuição com divisão
+- `%=` → Atribuição com módulo
+
+---
+
+## Operadores de Incremento/Decremento:
+- `++` → Incremento
+- `--` → Decremento
+
+---
+
 ## 👥 Usuários
 
 | Nome  | Git Config |
