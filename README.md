@@ -58,10 +58,13 @@ Esse comando executa o arquivo gerado pela compilação.
 ## 👥 Usuários
 
 | Nome  | Git Config |
-|--------|-----------------|
+|-------|-----------|
 | João  | `git config --global user.name "joaomagi"`  |
-|        | `git config --global user.email "joaofrancisco.leaomagi@outlook.com"`  |
-| Kevin | _A definir_ |
+|       | `git config --global user.email "joaofrancisco.leaomagi@outlook.com"`  |
+|-------|-----------|
+| Kevin | `git config --global user.name "Kzer05"`  |
+|       | `git config --global user.email "kevingabriel6000@gmail.com"`  |
+|-------|-----------|
 | Raul  | _A definir_ |
 
 ---
