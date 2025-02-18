@@ -55,17 +55,60 @@ Esse comando executa o arquivo gerado pela compilação.
 
 ---
 
+# Operadores em C
+
+## Operadores Aritméticos:
+- `+` → Adição
+- `-` → Subtração
+- `*` → Multiplicação
+- `/` → Divisão
+- `%` → Módulo (resto da divisão)
+
+---
+
+## Operadores Relacionais:
+- `==` → Igualdade
+- `!=` → Diferente
+- `>` → Maior que
+- `<` → Menor que
+- `>=` → Maior ou igual
+- `<=` → Menor ou igual
+
+---
+
+## Operadores Lógicos:
+- `&&` → AND (E lógico)
+- `||` → OR (OU lógico)
+- `!` → NOT (Negação lógica)
+
+---
+
+## Operadores de Atribuição:
+- `=` → Atribuição
+- `+=` → Atribuição com adição
+- `-=` → Atribuição com subtração
+- `*=` → Atribuição com multiplicação
+- `/=` → Atribuição com divisão
+- `%=` → Atribuição com módulo
+
+---
+
+## Operadores de Incremento/Decremento:
+- `++` → Incremento
+- `--` → Decremento
+
+---
+
 ## 👥 Usuários
 
 | Nome  | Git Config |
 |-------|-----------|
 | João  | `git config --global user.name "joaomagi"`  |
 |       | `git config --global user.email "joaofrancisco.leaomagi@outlook.com"`  |
-|-------|-----------|
 | Kevin | `git config --global user.name "Kzer05"`  |
 |       | `git config --global user.email "kevingabriel6000@gmail.com"`  |
-|-------|-----------|
-| Raul  | _A definir_ |
+| Raul  | `git config --global user.name "RickD248"`  |
+|       | `git config --global user.email "raul11.serrano@gmail.com"`  |
 
 ---
 
