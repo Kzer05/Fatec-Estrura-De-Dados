@@ -40,14 +40,18 @@ Bem-vindo ao Diretório das Aulas! Aqui iremos depositar todas as aulas para que
 ### 🔹 Comandos para executar GCC:
 ```bash
 gcc .\arquivo -o algumnome
+```
+Esse comando compila o código fonte C gerando um executável com o nome especificado.
+
+```bash
 .\algumnome.exe
 ```
+Esse comando executa o arquivo gerado pela compilação.
 
 ### 🔹 Tipos de Dados / Variáveis:
-- `int`
-- `float`
-- `double`
-- `char`
+- `int` → Tipo inteiro, usado para armazenar números inteiros.
+- `float` → Tipo de ponto flutuante, usado para armazenar números decimais com precisão simples.
+- `double` → Tipo de ponto flutuante de precisão dupla, usado para armazenar números decimais com maior precisão.
 
 ---
 
