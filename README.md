@@ -6,12 +6,6 @@ Bem-vindo ao Diretório das Aulas! Aqui iremos depositar todas as aulas para que
 
 ---
 
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kzer05&show_icons=true&theme=dracula)
-
----
-
 ## 📂 Como navegar pelas aulas:
 
 🗂️ **Acesse cada pasta para visualizar os arquivos de cada módulo:**  
