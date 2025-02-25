@@ -93,6 +93,12 @@ Esse comando executa o arquivo gerado pela compilação.
 
 ---
 
+#include <locale.h>
+setlocale(LC_ALL, "pt_BR.utf8);
+no terminal chcp 65001
+
+---
+
 ## 👥 Usuários
 
 | Nome  | Git Config |
