@@ -21,7 +21,6 @@ void gravarAlunoArquivo(Aluno a, FILE *arquivo);
 int main() {
     int opcao;
 
-    
     FILE *arquivo = fopen("alunos.txt", "w");
     if (arquivo == NULL) {
         printf("Erro ao abrir o arquivo.\n");
@@ -29,7 +28,6 @@ int main() {
     }
 
     do {
-        
         printf("\n1 - Digitar um aluno\n");
         printf("2 - Ler Alunos\n");
         printf("0 - Sair\n");
@@ -65,7 +63,6 @@ int main() {
 Aluno lerAluno() {
     Aluno novoAluno;
     
-    
     printf("\nDigite o nome do aluno: ");
     getchar();  
     fgets(novoAluno.nome, sizeof(novoAluno.nome), stdin);
@@ -84,7 +81,6 @@ void cadastrarAlunos(FILE *arquivo) {
     int verificaQtdeAlunos = 0;
     int qtdeAlunos = 0;
 
-    
     while (qtdeAlunos == 0) {
         printf("\nDigite a quantidade de alunos que deseja cadastrar (1 a 3): ");
         scanf("%d", &verificaQtdeAlunos);
