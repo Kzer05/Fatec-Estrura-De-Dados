@@ -2,49 +2,53 @@
 #include <stdlib.h>
 #include <string.h>
 
-typedef struct Person {
+typedef struct No {
     int id;
-    struct Person *next;
-} Person;
+    struct No *next;
+} No;
 
-Person *enqueue(Person *back, int id) {
-    Person *newPerson = (Person*) malloc(sizeof(Person));
-    if (!newPerson) {
+void enqueue(No **front, No **back, int id ) {
+    No *newNo = (No*) malloc(sizeof(No));
+    if (!newNo) {
         printf("Erro de alocação de memória!\n");
-        return back;
+        return;
     }
 
-    newPerson->id = id;
-    newPerson->next = NULL;
-    
-    if (!back) {
-        return newPerson;
+    newNo->id = id;
+    newNo->next = NULL;
+
+    if (!*back) {
+        *front = newNo;
+        *back = newNo;
+        return;
     }
-    
-    back->next = newPerson;
-    return newPerson;
+
+    (*back)->next = newNo;
+    *back = newNo;
 }
 
-Person *dequeue(Person *front) {
-    if (!front) {
+void dequeue(No **front, No **back) {
+    if (!*front) {
         printf("Nada para remover!\n");
-        return NULL;
+        return;
     }
-    printf("Removendo: %d\n", front->id);
-    Person *temp = front;
-    front = front->next;
+
+    No *temp = *front;
+    *front = (*front)->next;
+    if (!*front) {
+        *back = NULL;
+    }
     free(temp);
-    return front;
 }
 
-void printQueue(Person *front) {
+void printQueue(No *front) {
     if (!front) {
-        printf("\n A fila está vazia.\n");
+        printf("\nA fila esta vazia.\n");
         return;
     }
 
     printf("Fila: ");
-    Person *current = front;
+    No *current = front;
     while (current) {
         printf("%d ", current->id);
         current = current->next;
@@ -53,42 +57,21 @@ void printQueue(Person *front) {
 }
 
 int main() {
-    Person *front = NULL;
-    Person *last = NULL;
-    
-    int input, option;
+    No *front = NULL;
+    No *last = NULL;
 
-    while (1) {
-        printf("\nEscolha uma opcao:\n");
-        printf("1 - Adicionar numero da pesspa\n");
-        printf("2 - Remover numero da pessoa\n");
-        printf("3 - Ver fila\n");
-        printf("4 - Sair\n");
-        printf("Digite o numero da opcao: ");
+    /* Criar um programa que simule uma fila, onde você irá inserir 3 itens, 
+    exibir a fila, remover 1 item, exibir a fila, inserir mais 2 itens e exibir a fila. Utilize como nome da estrutura "No". */
 
-        scanf("%d", &option);
+    enqueue(&front, &last, 10);
+    enqueue(&front, &last, 20);
+    enqueue(&front, &last, 30);
+    printQueue(front);
+    dequeue(&front, &last);
+    enqueue(&front, &last, 40);
+    enqueue(&front, &last, 50);
+    printQueue(front);
 
-        switch (option) {
-            case 1:  
-                printf("Digite o numero para adicionar: ");
-                scanf("%d", &input);
-                last = enqueue(last, input);
-                if (!front) front = last;
-                break;
-            case 2:  
-                front = dequeue(front);
-                if (!front) last = NULL;
-                break;
-            case 3: 
-                printQueue(front);
-                break;
-            case 4:  
-                return 0;
-            default:
-                printf("Opcao invalida. Tente novamente.\n");
-                break;
-        }
-    }
-
+    scanf("%d", NULL); // só pra não fechar
     return 0;
 }
