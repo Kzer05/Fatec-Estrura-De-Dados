@@ -37,6 +37,8 @@ void exibirLista(struct No *inicio) {
 int main() {
     struct No *lista = NULL;
 
+    inserirInicio(&lista, 50);
+    inserirInicio(&lista, 40);
     inserirInicio(&lista, 30);
     inserirInicio(&lista, 20);
     inserirInicio(&lista, 10);
