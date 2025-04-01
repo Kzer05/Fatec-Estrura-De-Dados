@@ -1,27 +1,33 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
 // Estrutura do nó da lista
 typedef struct No {
     char palavra[100];
     struct No *proximo;
 } No;
 
-// Função para inserir no início da lista (push)
-void inserirInicio(No **inicio, const char *palavra) {
+void inserirNoFinal(No **inicio, const char* palavra) {
     No *novo = (No*) malloc(sizeof(No));
     
     if (novo == NULL) {
-        printf("Erro de alocação de memória.\n");
+        printf("Erro ao alocar memória.\n");
         return;
     }
-
     strcpy(novo->palavra, palavra);
-    novo->proximo = *inicio;
-    *inicio = novo;
+    novo->proximo = NULL;
 
-    printf("Palavra '%s' inserida no início da lista.\n", palavra);
+    if(*inicio == NULL){
+        *inicio = novo;
+    }else{
+        No *temp = *inicio;
+
+        while (temp->proximo != NULL){
+            temp = temp->proximo;
+        }
+        temp->proximo = novo;
+    }
+    printf("palavra '%s' inserida no final da lista.\n", palavra);
 }
 
 // Função para exibir a lista
@@ -57,7 +63,8 @@ int main() {
                 printf("Digite a palavra: ");
                 fgets(palavra, sizeof(palavra), stdin);
                 palavra[strcspn(palavra, "\n")] = 0;  
-                inserirInicio(&lista, palavra);
+                inserirNoFinal(&lista, palavra);
+
                 break;
             case 2:
                 exibirLista(lista);
